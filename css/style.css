@@ -1,6 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
+}
+
+section {
+    height: 800px;
 }
 
 ul {
@@ -12,6 +20,7 @@ a {
     text-decoration: none;
 }
 
+/* #region header */
 .header {
     display: flex;
     flex-direction: column;
@@ -39,11 +48,13 @@ a {
     letter-spacing: -1.5px;
 }
 
+/* #endregion */
+
+/* #region menu */
 .menu {
     padding: 64px 120px;
     background-color: #E8EFF9;
     height: 100vh;
-
 }
 
 .menu__top {
@@ -65,3 +76,5 @@ a {
     letter-spacing: 0.09em;
     text-transform: uppercase;
 }
+
+/* #endregion */
