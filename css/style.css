@@ -16,10 +16,6 @@ body {
     line-height: 1.4;
 }
 
-section {
-    /* height: 800px; */
-}
-
 p,
 h1,
 h2,
@@ -335,6 +331,7 @@ a {
     .photo-wide {
         width: 130px;
         height: 130px;
+        object-fit: cover;
     }
 
     .photo-square {
@@ -383,7 +380,7 @@ a {
     }
 }
 
-@media screen and (min-width:320px) and (max-width: 743px) {
+@media screen and (max-width: 320px) {
     .buy {
         flex-direction: column;
         gap: 32px;
