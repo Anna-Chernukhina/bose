@@ -39,6 +39,7 @@ a {
 
 .main {
     padding: 120px;
+    background-color: #fff;
 }
 
 /* #region header */
@@ -125,13 +126,6 @@ a {
     margin-bottom: 64px;
 }
 
-/* #endregion */
-
-.products {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .recommended__products {
     display: flex;
     justify-content: center;
@@ -163,15 +157,19 @@ a {
     font-weight: 700;
 }
 
-.buy__title {
-    text-align: left;
+/* #endregion */
 
-}
+/* #region Products by category */
 
 .products,
 .buy {
     max-width: 1020px;
     margin: 0 auto;
+}
+
+.products {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .category:not(:last-child) {
@@ -193,6 +191,9 @@ a {
     width: 32%;
 }
 
+/* #endregion */
+
+/* #region How to buy */
 .buy {
     display: flex;
     gap: 24px;
@@ -223,3 +224,19 @@ a {
     margin-bottom: 40px;
     font-weight: bold;
 }
+
+/* #endregion */
+
+/* #region Footer */
+.footer {
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    height: 460px;
+    background-image: url(/images/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #endregion */
