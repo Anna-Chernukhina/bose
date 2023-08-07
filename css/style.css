@@ -239,4 +239,10 @@ a {
     background-size: cover;
 }
 
+@media (min-width: 1200px) {
+    .footer {
+        height: 660px;
+    }
+}
+
 /* #endregion */
